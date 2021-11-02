@@ -31,7 +31,7 @@ int main(int argc, char **argv) {
         char *commande;
         //taille max de la commande arbitrairement choisie
         size_t nb_char_max = 250;
-        //la commande est size_t parce que getline
+        //la commande est size_t parce que frère, genre y a un moment faut connaître son cours, nan mais sans dec quoi.
         size_t nb_char_commande;
         
         commande = (char *)malloc(nb_char_max*sizeof(char));
